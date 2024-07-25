@@ -11,6 +11,11 @@
 		040A341D2C521BC5008EA960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A341C2C521BC5008EA960 /* ContentView.swift */; };
 		040A341F2C521BC7008EA960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040A341E2C521BC7008EA960 /* Assets.xcassets */; };
 		040A34222C521BC7008EA960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040A34212C521BC7008EA960 /* Preview Assets.xcassets */; };
+		040A34292C523B95008EA960 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A34282C523B95008EA960 /* NetworkManager.swift */; };
+		040A342F2C523C2A008EA960 /* PuzzlePieceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A342E2C523C2A008EA960 /* PuzzlePieceView.swift */; };
+		040A34332C5256CD008EA960 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A34322C5256CD008EA960 /* Models.swift */; };
+		040A34352C52573E008EA960 /* UnsplashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A34342C52573E008EA960 /* UnsplashService.swift */; };
+		040A34372C525765008EA960 /* PuzzleGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A34362C525765008EA960 /* PuzzleGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		040A341C2C521BC5008EA960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		040A341E2C521BC7008EA960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040A34212C521BC7008EA960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		040A34282C523B95008EA960 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		040A342E2C523C2A008EA960 /* PuzzlePieceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzlePieceView.swift; sourceTree = "<group>"; };
+		040A34322C5256CD008EA960 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		040A34342C52573E008EA960 /* UnsplashService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashService.swift; sourceTree = "<group>"; };
+		040A34362C525765008EA960 /* PuzzleGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,11 @@
 		040A34192C521BC5008EA960 /* Puzzle Paws */ = {
 			isa = PBXGroup;
 			children = (
+				040A34322C5256CD008EA960 /* Models.swift */,
+				040A34362C525765008EA960 /* PuzzleGrid.swift */,
+				040A34342C52573E008EA960 /* UnsplashService.swift */,
+				040A342E2C523C2A008EA960 /* PuzzlePieceView.swift */,
+				040A34282C523B95008EA960 /* NetworkManager.swift */,
 				040A341A2C521BC5008EA960 /* Puzzle_PawsApp.swift */,
 				040A341C2C521BC5008EA960 /* ContentView.swift */,
 				040A341E2C521BC7008EA960 /* Assets.xcassets */,
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040A34292C523B95008EA960 /* NetworkManager.swift in Sources */,
+				040A34372C525765008EA960 /* PuzzleGrid.swift in Sources */,
 				040A341D2C521BC5008EA960 /* ContentView.swift in Sources */,
+				040A34332C5256CD008EA960 /* Models.swift in Sources */,
+				040A342F2C523C2A008EA960 /* PuzzlePieceView.swift in Sources */,
 				040A341B2C521BC5008EA960 /* Puzzle_PawsApp.swift in Sources */,
+				040A34352C52573E008EA960 /* UnsplashService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
