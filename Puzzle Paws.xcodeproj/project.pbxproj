@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040A341B2C521BC5008EA960 /* Puzzle_PawsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A341A2C521BC5008EA960 /* Puzzle_PawsApp.swift */; };
-		040A341D2C521BC5008EA960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A341C2C521BC5008EA960 /* ContentView.swift */; };
-		040A341F2C521BC7008EA960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040A341E2C521BC7008EA960 /* Assets.xcassets */; };
-		040A34222C521BC7008EA960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040A34212C521BC7008EA960 /* Preview Assets.xcassets */; };
-		040A34292C523B95008EA960 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A34282C523B95008EA960 /* NetworkManager.swift */; };
-		040A342F2C523C2A008EA960 /* PuzzlePieceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A342E2C523C2A008EA960 /* PuzzlePieceView.swift */; };
-		040A34332C5256CD008EA960 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A34322C5256CD008EA960 /* Models.swift */; };
-		040A34352C52573E008EA960 /* UnsplashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A34342C52573E008EA960 /* UnsplashService.swift */; };
-		040A34372C525765008EA960 /* PuzzleGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A34362C525765008EA960 /* PuzzleGrid.swift */; };
+		0484525C2C5E0B1E00C465D8 /* cottoncandy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04361AE32C5678BE0004665D /* cottoncandy.mp3 */; };
+		0484525D2C5E0B2200C465D8 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 041A67DF2C561A3400761EAC /* loader.gif */; };
+		0484525E2C5E0B2700C465D8 /* PawWowBlock.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0456B18C2C54DA2A005F5DAA /* PawWowBlock.otf */; };
+		04FFFA012C597F5C00BFA360 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04361ADF2C5674B90004665D /* SoundManager.swift */; };
+		04FFFA022C597F6D00BFA360 /* PuzzleGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A34362C525765008EA960 /* PuzzleGrid.swift */; };
+		04FFFA032C597F6D00BFA360 /* PuzzlePieceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A342E2C523C2A008EA960 /* PuzzlePieceView.swift */; };
+		04FFFA042C597F6D00BFA360 /* CustomDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E55A152C556F9F00BCEE75 /* CustomDialogView.swift */; };
+		04FFFA052C597F6D00BFA360 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04361ADC2C5653780004665D /* GifView.swift */; };
+		04FFFA062C597F7100BFA360 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A34322C5256CD008EA960 /* Models.swift */; };
+		04FFFA072C59826200BFA360 /* Puzzle_PawsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A341A2C521BC5008EA960 /* Puzzle_PawsApp.swift */; };
+		04FFFA082C59826200BFA360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A341C2C521BC5008EA960 /* ContentView.swift */; };
+		04FFFA092C59827A00BFA360 /* UnsplashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A34342C52573E008EA960 /* UnsplashService.swift */; };
+		04FFFA0A2C59827A00BFA360 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A34282C523B95008EA960 /* NetworkManager.swift */; };
+		04FFFA0B2C59828B00BFA360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040A341E2C521BC7008EA960 /* Assets.xcassets */; };
+		04FFFA0C2C59829000BFA360 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040A34212C521BC7008EA960 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		040A34172C521BC5008EA960 /* Puzzle Paws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Puzzle Paws.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		040A341A2C521BC5008EA960 /* Puzzle_PawsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle_PawsApp.swift; sourceTree = "<group>"; };
 		040A341C2C521BC5008EA960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		040A341E2C521BC7008EA960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -29,10 +34,18 @@
 		040A34322C5256CD008EA960 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		040A34342C52573E008EA960 /* UnsplashService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashService.swift; sourceTree = "<group>"; };
 		040A34362C525765008EA960 /* PuzzleGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGrid.swift; sourceTree = "<group>"; };
+		041A67DF2C561A3400761EAC /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
+		04361ADC2C5653780004665D /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		04361ADF2C5674B90004665D /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		04361AE32C5678BE0004665D /* cottoncandy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cottoncandy.mp3; sourceTree = "<group>"; };
+		0456B18C2C54DA2A005F5DAA /* PawWowBlock.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PawWowBlock.otf; sourceTree = "<group>"; };
+		04E55A152C556F9F00BCEE75 /* CustomDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogView.swift; sourceTree = "<group>"; };
+		04FFF9F22C597EF100BFA360 /* Puzzle Paws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Puzzle Paws.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FFFA002C597F3000BFA360 /* Puzzle-Paws-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Puzzle-Paws-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		040A34142C521BC5008EA960 /* Frameworks */ = {
+		04FFF9EF2C597EF100BFA360 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,7 +66,7 @@
 		040A34182C521BC5008EA960 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				040A34172C521BC5008EA960 /* Puzzle Paws.app */,
+				04FFF9F22C597EF100BFA360 /* Puzzle Paws.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,13 +74,12 @@
 		040A34192C521BC5008EA960 /* Puzzle Paws */ = {
 			isa = PBXGroup;
 			children = (
-				040A34322C5256CD008EA960 /* Models.swift */,
-				040A34362C525765008EA960 /* PuzzleGrid.swift */,
-				040A34342C52573E008EA960 /* UnsplashService.swift */,
-				040A342E2C523C2A008EA960 /* PuzzlePieceView.swift */,
-				040A34282C523B95008EA960 /* NetworkManager.swift */,
-				040A341A2C521BC5008EA960 /* Puzzle_PawsApp.swift */,
-				040A341C2C521BC5008EA960 /* ContentView.swift */,
+				04FFFA002C597F3000BFA360 /* Puzzle-Paws-Info.plist */,
+				04361ADE2C5674AC0004665D /* Manager */,
+				04E55A142C55407E00BCEE75 /* Network */,
+				04E55A112C55401000BCEE75 /* UI */,
+				04E55A102C553FFC00BCEE75 /* Models */,
+				0456B18A2C54D5B6005F5DAA /* Resources */,
 				040A341E2C521BC7008EA960 /* Assets.xcassets */,
 				040A34202C521BC7008EA960 /* Preview Content */,
 			);
@@ -82,16 +94,104 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		041A67DE2C561A1B00761EAC /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				041A67DF2C561A3400761EAC /* loader.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
+		04361ADE2C5674AC0004665D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				04361ADF2C5674B90004665D /* SoundManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		04361AE22C56785A0004665D /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				04361AE32C5678BE0004665D /* cottoncandy.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		0456B18A2C54D5B6005F5DAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04361AE22C56785A0004665D /* Music */,
+				041A67DE2C561A1B00761EAC /* Gif */,
+				0456B18B2C54D5C0005F5DAA /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0456B18B2C54D5C0005F5DAA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0456B18C2C54DA2A005F5DAA /* PawWowBlock.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		04E55A102C553FFC00BCEE75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				040A34322C5256CD008EA960 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04E55A112C55401000BCEE75 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				04E55A132C55406E00BCEE75 /* Home */,
+				04E55A122C55404700BCEE75 /* Puzzle */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		04E55A122C55404700BCEE75 /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				040A34362C525765008EA960 /* PuzzleGrid.swift */,
+				040A342E2C523C2A008EA960 /* PuzzlePieceView.swift */,
+				04E55A152C556F9F00BCEE75 /* CustomDialogView.swift */,
+				04361ADC2C5653780004665D /* GifView.swift */,
+			);
+			path = Puzzle;
+			sourceTree = "<group>";
+		};
+		04E55A132C55406E00BCEE75 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				040A341A2C521BC5008EA960 /* Puzzle_PawsApp.swift */,
+				040A341C2C521BC5008EA960 /* ContentView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04E55A142C55407E00BCEE75 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				040A34342C52573E008EA960 /* UnsplashService.swift */,
+				040A34282C523B95008EA960 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		040A34162C521BC5008EA960 /* Puzzle Paws */ = {
+		04FFF9F12C597EF100BFA360 /* Puzzle Paws */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 040A34252C521BC7008EA960 /* Build configuration list for PBXNativeTarget "Puzzle Paws" */;
+			buildConfigurationList = 04FFF9FD2C597EF300BFA360 /* Build configuration list for PBXNativeTarget "Puzzle Paws" */;
 			buildPhases = (
-				040A34132C521BC5008EA960 /* Sources */,
-				040A34142C521BC5008EA960 /* Frameworks */,
-				040A34152C521BC5008EA960 /* Resources */,
+				04FFF9EE2C597EF100BFA360 /* Sources */,
+				04FFF9EF2C597EF100BFA360 /* Frameworks */,
+				04FFF9F02C597EF100BFA360 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -99,7 +199,7 @@
 			);
 			name = "Puzzle Paws";
 			productName = "Puzzle Paws";
-			productReference = 040A34172C521BC5008EA960 /* Puzzle Paws.app */;
+			productReference = 04FFF9F22C597EF100BFA360 /* Puzzle Paws.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +212,7 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					040A34162C521BC5008EA960 = {
+					04FFF9F12C597EF100BFA360 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -130,35 +230,41 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				040A34162C521BC5008EA960 /* Puzzle Paws */,
+				04FFF9F12C597EF100BFA360 /* Puzzle Paws */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		040A34152C521BC5008EA960 /* Resources */ = {
+		04FFF9F02C597EF100BFA360 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040A34222C521BC7008EA960 /* Preview Assets.xcassets in Resources */,
-				040A341F2C521BC7008EA960 /* Assets.xcassets in Resources */,
+				0484525E2C5E0B2700C465D8 /* PawWowBlock.otf in Resources */,
+				0484525D2C5E0B2200C465D8 /* loader.gif in Resources */,
+				0484525C2C5E0B1E00C465D8 /* cottoncandy.mp3 in Resources */,
+				04FFFA0C2C59829000BFA360 /* Preview Assets.xcassets in Resources */,
+				04FFFA0B2C59828B00BFA360 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		040A34132C521BC5008EA960 /* Sources */ = {
+		04FFF9EE2C597EF100BFA360 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040A34292C523B95008EA960 /* NetworkManager.swift in Sources */,
-				040A34372C525765008EA960 /* PuzzleGrid.swift in Sources */,
-				040A341D2C521BC5008EA960 /* ContentView.swift in Sources */,
-				040A34332C5256CD008EA960 /* Models.swift in Sources */,
-				040A342F2C523C2A008EA960 /* PuzzlePieceView.swift in Sources */,
-				040A341B2C521BC5008EA960 /* Puzzle_PawsApp.swift in Sources */,
-				040A34352C52573E008EA960 /* UnsplashService.swift in Sources */,
+				04FFFA092C59827A00BFA360 /* UnsplashService.swift in Sources */,
+				04FFFA0A2C59827A00BFA360 /* NetworkManager.swift in Sources */,
+				04FFFA072C59826200BFA360 /* Puzzle_PawsApp.swift in Sources */,
+				04FFFA082C59826200BFA360 /* ContentView.swift in Sources */,
+				04FFFA062C597F7100BFA360 /* Models.swift in Sources */,
+				04FFFA022C597F6D00BFA360 /* PuzzleGrid.swift in Sources */,
+				04FFFA032C597F6D00BFA360 /* PuzzlePieceView.swift in Sources */,
+				04FFFA042C597F6D00BFA360 /* CustomDialogView.swift in Sources */,
+				04FFFA052C597F6D00BFA360 /* GifView.swift in Sources */,
+				04FFFA012C597F5C00BFA360 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,58 +390,73 @@
 			};
 			name = Release;
 		};
-		040A34262C521BC7008EA960 /* Debug */ = {
+		04FFF9FE2C597EF300BFA360 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Puzzle Paws/Preview Content\"";
-				DEVELOPMENT_TEAM = 2ZD35WMD5S;
+				DEVELOPMENT_ASSET_PATHS = "Puzzle\\ Paws/Preview\\ Content Puzzle\\ Paws/Resources";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2ZD35WMD5S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Puzzle-Paws-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Puzzle Paws";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.octacoder.app.Puzzle-Paws";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Puzzle Paws Distribution";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		040A34272C521BC7008EA960 /* Release */ = {
+		04FFF9FF2C597EF300BFA360 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Puzzle Paws/Preview Content\"";
-				DEVELOPMENT_TEAM = 2ZD35WMD5S;
+				DEVELOPMENT_ASSET_PATHS = "Puzzle\\ Paws/Preview\\ Content Puzzle\\ Paws/Resources";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2ZD35WMD5S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Puzzle-Paws-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Puzzle Paws";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.octacoder.app.Puzzle-Paws";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Puzzle Paws Distribution";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,11 +475,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		040A34252C521BC7008EA960 /* Build configuration list for PBXNativeTarget "Puzzle Paws" */ = {
+		04FFF9FD2C597EF300BFA360 /* Build configuration list for PBXNativeTarget "Puzzle Paws" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				040A34262C521BC7008EA960 /* Debug */,
-				040A34272C521BC7008EA960 /* Release */,
+				04FFF9FE2C597EF300BFA360 /* Debug */,
+				04FFF9FF2C597EF300BFA360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

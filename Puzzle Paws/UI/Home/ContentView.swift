@@ -8,18 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
-//    init(){
-//        for familyName in UIFont.familyNames{
-//            print(familyName)
-//            for fontName in UIFont.fontNames(forFamilyName: familyName){
-//                print("-- \(fontName)")
-//            }
-//        }
-//    }
+    //    init(){
+    //        for familyName in UIFont.familyNames{
+    //            print(familyName)
+    //            for fontName in UIFont.fontNames(forFamilyName: familyName){
+    //                print("-- \(fontName)")
+    //            }
+    //        }
+    //    }
     var body: some View {
         NavigationView {
             GeometryReader { geo in
-                
                 ZStack{
                     Image("homepage_background")
                         .resizable()
@@ -28,35 +27,43 @@ struct ContentView: View {
                         .frame(width: geo.size.width, height: geo.size.height, alignment: .center)
                     VStack {
                         ZStack{
-                        
-        
-                            Image(uiImage: UIImage(named: "back_board") ?? UIImage())
+                            Image(uiImage: UIImage(named: "puzzle_board") ?? UIImage())
                                 .resizable()
                                 .scaledToFit()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: 300, height: 350, alignment: .center).padding(.top,50)
+                                .frame(width: 200, height: 250, alignment: .center).padding(.top,50)
                             Text("Puzzle\nPaws")
-                                .font(.custom("PawWowBlockRegular", size: 65))
+                                .font(.custom("PawWowBlockRegular", size: 65).weight(.semibold))
                                 .padding(.top,50)
                                 .multilineTextAlignment(.center)
-                                .fontWeight(Font.Weight.semibold)
+                                
                                 .padding(10)
-                                .foregroundColor(.brown)
+                                .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
                         Spacer()
-                        NavigationLink(destination: PuzzleGrid()) {
-                            Image(uiImage: UIImage(named: "start_button") ?? UIImage())
-                                .resizable()
-                                .scaledToFit()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 250, height: 250, alignment: .bottom).padding(.top,50)
+                        NavigationLink(destination: PuzzleGrid().navigationBarBackButtonHidden(true)){
+                            ZStack{
+                                Image(uiImage: UIImage(named: "go_button") ?? UIImage())
+                                    .resizable()
+                                    .scaledToFit()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 250, height: 150, alignment: .bottom)
+                                Text("Start")
+                                    .font(.custom("PawWowBlockRegular", size: 55).weight(.semibold))
+                                    .padding(.top,60)
+                                    .multilineTextAlignment(.center)
+                                   
+                                    .padding(10)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(10)
+                            }.padding(.bottom,50)
                             
-                        }
+                        }.navigationBarBackButtonHidden(true)
                     }  .frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
             }
-        }
+        }.navigationViewStyle(.stack)
     }
 }
 
