@@ -9,8 +9,8 @@ struct PuzzlePieceView: View {
                 piece.image?
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 100, height: 100)
-                
+                    .frame(width: 90, height: 90)
+                    .cornerRadius(10)
                     .onTapGesture {
                         onTap()
                     }

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "make  home page background its an puzzle game named puzzle paws.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "make  home page background its an puzzle game named puzzle paws@2x.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "make  home page background its an puzzle game named puzzle paws@3x.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
